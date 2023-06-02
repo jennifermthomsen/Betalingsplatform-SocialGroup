@@ -1,20 +1,24 @@
 /*======= General =======*/
 /* Links */
-a {color: #6C9B91;}
+a {
+	color: #6C9B91;
+}
 
 /* Privatlivspolitik */
-.betingelser a {color: #ffffff;}
+.betingelser a {
+	color: #ffffff;
+}
 
 /* Sløret billede */
 .background-blur:before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    	content: "";
+   	 position: absolute;
+   	 top: 0;
+   	 left: 0;
+   	 width: 100%;
+   	 height: 100%;
+   	 -webkit-backdrop-filter: blur(10px);
+   	 backdrop-filter: blur(10px);
 }
 
 /* Shop popup */
@@ -26,41 +30,37 @@ a.elementor-button.elementor-button--checkout.elementor-size-md {
 	background: -webkit-linear-gradient(360deg, hsla(23, 100%, 65%, 1) 0%, hsla(23, 100%, 57%, 1) 100%);;
 }
 
-/* CSS til Javascript - Start */
-#animationsObjekt {
-    width: 200px;
-}
-/*CSS til Javascript - Slut */
 
 /* WooCommerce shop - Start */
 nav.woocommerce-breadcrumb {
 	visibility: hidden;
- display:none !important;
+ 	display:none !important;
 }
+
 p.woocommerce-result-count{
-		visibility: hidden;
- display:none !important;
+	visibility: hidden;
+ 	display:none !important;
 }
 
 form.woocommerce-ordering {
-		visibility: hidden;
- display:none !important;
+	visibility: hidden;
+ 	display:none !important;
 }
 
 a.button.wp-element-button.product_type_variable-subscription.add_to_cart_button {
 	background: -webkit-linear-gradient(90deg, hsla(167, 19%, 52%, 1) 0%, hsla(167, 46%, 63%, 1) 100%);
 	color: #ffffff;
-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
 	padding: 15px 20px;
 	border: none;
 }
 
 .subscription-details {
-		color: #6C9B91;
+	color: #6C9B91;
 }
 
 .woocommerce-Price-amount.amount {
-		color: #6C9B91;
+	color: #6C9B91;
 }
 
 h2.woocommerce-loop-product__title {
@@ -88,7 +88,7 @@ border-radius: 20px 20px 20px 20px;
 
 .coupon {
 	visibility: hidden;
- display:none !important;
+ 	display:none !important;
 }
 
 .woocommerce-message{
@@ -118,14 +118,14 @@ p.cart-empty.woocommerce-info::before {
 a.button.wc-backward.wp-element-button {
 	background: -webkit-linear-gradient(90deg, hsla(167, 19%, 52%, 1) 0%, hsla(167, 46%, 63%, 1) 100%);
 	color: #ffffff;
-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
 	padding: 15px 20px;
 }
 
 button.button.wp-element-button {
 	background: -webkit-linear-gradient(90deg, hsla(167, 19%, 52%, 1) 0%, hsla(167, 46%, 63%, 1) 100%);
 	color: #ffffff;
-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
 	padding: 15px 20px;
 	font-family: montserret,helvetica, sans-serif;
 }
@@ -135,36 +135,37 @@ border-radius: 15px 15px 15px 15px;
 /* WooCommerce cheakout - Start */
 .cart-subtotal, tr.recurring-totals, tr.cart-subtotal {
  
-      visibility: hidden;
- display:none !important;
+     	visibility: hidden;
+ 	display:none !important;
 }
 
 /*Dit abonnement total*/
 td.product-name {
-    width: 56%;
+    	width: 56%;
 }
 
 tr.order-total.recurring-total td {
-    padding-top: 3px !important;
+    	padding-top: 3px !important;
 }
 
 button.woocommerce-button.button.woocommerce-form-login__submit.e-woocommerce-form-login-submit {background: -webkit-linear-gradient(90deg, hsla(167, 19%, 52%, 1) 0%, hsla(167, 46%, 63%, 1) 100%);
 	color: #ffffff;
-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
 	padding: 15px 20px;
 	border: none;
 }
 
 /*Grøn beggrund*/
 .woocommerce-billing-fields h3, h3#order_review_heading {
-background: -webkit-linear-gradient(90deg, hsla(167, 19%, 52%, 1) 0%, hsla(167, 46%, 63%, 1) 100%);
-    margin-top: -25px !important;
-    margin-left: -25px;
-    margin-right: -25px;
-    padding: 20px 0;
-    color: white !important;
-    border-radius: 15px 15px 0px 0px;
+	background: -webkit-linear-gradient(90deg, hsla(167, 19%, 52%, 1) 0%, hsla(167, 46%, 63%, 1) 100%);
+  	margin-top: -25px !important;
+   	margin-left: -25px;
+    	margin-right: -25px;
+    	padding: 20px 0;
+    	color: white !important;
+    	border-radius: 15px 15px 0px 0px;
 }
+
 /* WooCommerce cheakout - Slut */
 
 
